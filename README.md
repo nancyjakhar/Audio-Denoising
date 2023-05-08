@@ -34,5 +34,15 @@ adding various types and levels of noise to the clean speech signals. The datase
 includes different types of speech, such as male and female voices, different languages, 
 and various speaking styles. The audio files are in WAV format with a sample rate of 
 44.1 kHz and 16-bit resolution.
+# Results
+The performance of our algorithm was evaluated through experiments on our own 
+generated audio files and a publicly available dataset from the University of Edinburgh. 
+Quantitative evaluation was conducted using Signal-to-Noise Ratio (SNR) as the chosen 
+metric to assess the effectiveness of our algorithm in reducing noise in audio files. 
+The results of our experiments showed that our algorithm achieved a significant 
+improvement in SNR compared to the original noisy audio files. Table 1 presents the SNR 
+values obtained for our algorithm compared to an existing algorithm in the literature. Our 
+algorithm achieved the highest SNR value of 15.54, indicating a substantial reduction in 
+noise and improvement in audio quality.
 
 
